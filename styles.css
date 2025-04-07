@@ -1,0 +1,59 @@
+h1 {
+  text-align: center;
+  font-family: "Sunday Vacay Personal Use Only";
+  margin: 0;
+}
+
+.the {
+  color: black;
+  font-size: 54px;
+}
+
+.matcha {
+  color: #286e37;
+  font-size: 64px;
+}
+
+.logo {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border: 2px solid black; /* Inner line */
+  outline: 2px solid black; /* Outer line */
+  outline-offset: -12px; /* Space between borders */
+  background: #fff;
+  align-content: center;
+  margin: 0 auto;
+}
+
+.header-content {
+  align-self: center;
+  text-align: center;
+  font-family: "ChronicaPro Medium";
+  margin: 40px;
+  display: grid;
+  grid-template-columns: 1fr; /* Two equal columns */
+  gap: 30px;
+}
+
+nav {
+  background-color: #fff;
+  display: flex; /* Use flex instead of inline */
+  justify-content: flex-end;
+  height: 60px;
+}
+h3 {
+  display: inline;
+  text-align: center;
+  margin: 0 auto;
+}
+header {
+  background-image: url(matcha.jpg);
+  height: 800px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Two equal columns */
+  gap: 20px;
+}
