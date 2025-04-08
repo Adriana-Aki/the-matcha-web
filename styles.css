@@ -29,8 +29,8 @@ h1 {
 .header-content {
   align-self: center;
   text-align: center;
-  font-family: "ChronicaPro Medium";
-  margin: 40px;
+  font-family: "ChronicaPro-Medium";
+  margin: 150px 20px;
   display: grid;
   grid-template-columns: 1fr; /* Two equal columns */
   gap: 30px;
@@ -41,6 +41,8 @@ nav {
   display: flex; /* Use flex instead of inline */
   justify-content: flex-end;
   height: 60px;
+  color: #286e37;
+  font-family: "Sunday Vacay Personal Use Only";
 }
 h3 {
   display: inline;
@@ -53,7 +55,66 @@ header {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+.container-grid {
   display: grid;
   grid-template-columns: 1fr 1fr; /* Two equal columns */
   gap: 20px;
+}
+
+.menu-section {
+  padding: 60px 30px;
+  background-color: white;
+  text-align: center;
+}
+
+.menu-section h2 {
+  font-size: 2rem;
+  margin-bottom: 40px;
+  color: black;
+}
+
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.menu-item {
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease;
+}
+
+.menu-item:hover {
+  transform: translateY(-5px);
+}
+
+.menu-item img {
+  width: 90%;
+  object-fit: cover;
+  border-radius: 14px;
+  margin-bottom: 15px;
+}
+
+.menu-item h3 {
+  font-size: 1.2rem;
+  margin: 10px 0 5px;
+  color: #286e37;
+  font-family: "ChronicaPro-Bold";
+}
+
+.menu-item p {
+  font-size: 0.95rem;
+  color: black;
+  font-family: "ChronicaPro-Regular";
+}
+
+.menu-section h1 {
+  color: #286e37;
 }
