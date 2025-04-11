@@ -14,10 +14,14 @@
   </head>
   <body>
     <nav>
-      <h3>Domov</h3>
-      <h3>Menu</h3>
-      <h3>Gallery</h3>
-      <h3>Kontakt</h3>
+      <div class="part1"></div>
+      <div class="part2">
+        <h3><a href="index.html">Domov</a></h3>
+        <h3><a href="#menu-section">Menu </a></h3>
+        <h3><a href="#menu-section">Gallery</a></h3>
+        <h3><a href="#menu-section">Kontakt</a></h3>
+      </div>
+      <div class="part3"></div>
     </nav>
     <header class="header">
       <div class="container container-grid">
@@ -39,7 +43,7 @@
     </header>
 
     <main class="container">
-      <section class="menu-section">
+      <section class="menu-section" id="menu-section">
         <h1>Naše Matcha Menu</h1>
         <div class="menu-grid">
           <div class="menu-item">
@@ -112,8 +116,49 @@
           </div>
         </div>
       </section>
+
+      <section class="gallery" id="gallery">
+        <h1>Nase The MatCha momenty</h1>
+        <div class="grid-gallery">
+          <img src="matcha.jpg" alt="Matcha 1" />
+          <img src="matcha1.jpg" alt="Matcha 2" />
+          <img src="matcha2.jpg" alt="Matcha 3" />
+          <img src="matcha.jpg" alt="Matcha 4" />
+          <img src="matcha1.jpg" alt="Matcha 5" />
+          <img src="matcha2.jpg" alt="Matcha 6" />
+          <img src="matcha1.jpg" alt="Matcha 7" />
+          <img src="matcha2.jpg" alt="Matcha 8" />
+        </div>
+      </section>
     </main>
 
-    <footer></footer>
+    <footer>
+      <section class="kontakt" id="kontakt">
+        <div class="hodiny">
+          Po: 7:00 - 15:00
+          <br />
+          Ut: 7:00 - 15:00
+          <br />
+          Str: 7:00 - 15:00
+          <br />
+          St: 7:00 - 15:00
+          <br />
+
+          Pia: 7:00 - 15:00
+          <br />
+          So: 7:00 - 15:00
+          <br />
+          Ne: 7:00 - 15:00
+        </div>
+        <div class="adresa">
+          <h4>
+            <span>The MatCha</span><br />
+
+            Hlavna xxx <br />
+            04101 Kosice
+          </h4>
+        </div>
+      </section>
+    </footer>
   </body>
 </html>
