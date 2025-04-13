@@ -8,19 +8,26 @@ h1 {
   margin: 0;
 }
 
+header {
+  background-image: url(matcha.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 .the {
   color: black;
-  font-size: 54px;
+  font-size: 64px;
 }
 
 .matcha {
   color: #286e37;
-  font-size: 64px;
+  font-size: 74px;
 }
 
 .logo {
-  width: 300px;
-  height: 300px;
+  width: 400px;
+  height: 400px;
   border-radius: 50%;
   border: 2px solid black; /* Inner line */
   outline: 2px solid black; /* Outer line */
@@ -31,19 +38,30 @@ h1 {
 }
 
 .header-content {
-  align-self: center;
-  text-align: center;
-  font-family: "ChronicaPro-Medium";
-  margin: 150px 20px;
+  height: 700px;
+  align-content: center;
+}
+
+.container-grid {
   display: grid;
-  grid-template-columns: 1fr; /* Two equal columns */
-  gap: 30px;
+  grid-template-columns: 1fr 1fr;
+  align-content: center;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 40px;
+  color: #286e37;
+  font-family: "ChronicaPro-Bold";
+  font-size: 30px;
+}
+
+h3 {
+  font-family: "ChronicaPro-Medium";
 }
 
 nav {
   background-color: #fff;
-
-  height: 60px;
   color: #286e37;
   font-family: "Sunday Vacay Personal Use Only";
   display: grid;
@@ -53,35 +71,18 @@ nav {
 nav a {
   text-decoration: none;
   color: #286e37;
+  font-size: 36px;
+  margin: 5px;
 }
 
 nav a:hover {
   text-decoration: underline;
 }
+
 .part2 {
   display: flex; /* Use flex instead of inline */
-  justify-content: flex-end;
+  justify-content: space-around;
   align-items: center;
-  font-size: 78px;
-}
-
-h3 {
-  display: inline;
-  text-align: center;
-  margin: 0 auto;
-}
-header {
-  background-image: url(matcha.jpg);
-  height: 800px;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.container-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr; /* Two equal columns */
-  gap: 20px;
 }
 
 .menu-section {
@@ -91,9 +92,9 @@ header {
 }
 
 .menu-section h2 {
-  font-size: 2rem;
+  font-size: 46px;
   margin-bottom: 40px;
-  color: black;
+  color: #286e37;
 }
 
 .menu-grid {
@@ -124,58 +125,16 @@ header {
 }
 
 .menu-item h3 {
-  font-size: 1.2rem;
+  font-size: 1.7rem;
   margin: 10px 0 5px;
   color: #286e37;
   font-family: "ChronicaPro-Bold";
 }
 
 .menu-item p {
-  font-size: 0.95rem;
+  font-size: 1.3rem;
   color: black;
   font-family: "ChronicaPro-Regular";
-}
-
-.menu-section h1 {
-  color: #286e37;
-}
-
-.kontakt {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 30px;
-  align-items: center;
-}
-
-.hodiny {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.adresa {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-footer {
-  background-image: linear-gradient(
-      rgba(40, 110, 55, 0.5),
-      rgba(40, 110, 55, 0.5)
-    ),
-    url(matcha2.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  padding: 80px 0px;
-  color: white;
-  margin-top: 120px;
-}
-
-span {
-  font-family: "Sunday Vacay Personal Use Only";
-  font-size: 30px;
 }
 
 .gallery {
@@ -185,16 +144,15 @@ span {
 }
 
 .gallery h2 {
-  font-size: 2rem;
+  font-size: 46px;
   margin-bottom: 40px;
-  color: #2e4c3c;
 }
 
 .grid-gallery {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 20px;
-  max-width: 1100px;
+  max-width: 100%;
   margin: 0 auto;
 }
 
@@ -209,4 +167,51 @@ span {
 
 .grid-gallery img:hover {
   transform: scale(1.03);
+}
+
+footer {
+  background-image: linear-gradient(
+      rgba(40, 110, 55, 0.5),
+      rgba(40, 110, 55, 0.5)
+    ),
+    url(matcha2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 0px 0px;
+  color: white;
+  margin-top: 120px;
+}
+
+.kontakt {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  align-items: center;
+}
+
+.about {
+  padding: 100px;
+
+  font-size: 20px;
+}
+
+.adresa {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  flex-direction: column; /* this stacks children vertically */
+}
+.main {
+  font-family: "Sunday Vacay Personal Use Only";
+  font-size: 50px;
+}
+
+.hodiny {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  flex-direction: column;
 }
