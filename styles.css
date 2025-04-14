@@ -38,7 +38,7 @@ header {
 }
 
 .header-content {
-  height: 700px;
+  height: 70%;
   align-content: center;
 }
 
@@ -64,8 +64,18 @@ nav {
   background-color: #fff;
   color: #286e37;
   font-family: "Sunday Vacay Personal Use Only";
-  display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
+
+  display: flex;
+  justify-content: center;
+}
+
+.part2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; /* Allows wrapping on mobile */
+  gap: 40px; /* space between links */
+  max-width: 800px; /* prevents it from stretching too wide */
 }
 
 nav a {
@@ -77,12 +87,6 @@ nav a {
 
 nav a:hover {
   text-decoration: underline;
-}
-
-.part2 {
-  display: flex; /* Use flex instead of inline */
-  justify-content: space-around;
-  align-items: center;
 }
 
 .menu-section {
@@ -192,7 +196,6 @@ footer {
 
 .about {
   padding: 100px;
-
   font-size: 20px;
 }
 
@@ -214,4 +217,51 @@ footer {
   align-items: center;
   font-size: 20px;
   flex-direction: column;
+}
+
+@media (max-width: 768px) {
+  .part2 {
+    gap: 20px 40px; /* vertical and horizontal spacing between items */
+    justify-content: center;
+  }
+
+  .part2 a {
+    font-size: 28px;
+    flex: 1 1 40%; /* 2 items per row */
+    text-align: center;
+  }
+
+  .the {
+    color: black;
+    font-size: 34px;
+  }
+
+  .matcha {
+    color: #286e37;
+    font-size: 44px;
+  }
+
+  .logo {
+    width: 200px;
+    height: 200px;
+  }
+
+  .grid-gallery {
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+
+  .kontakt {
+    grid-template-columns: 1fr;
+  }
+
+  .about {
+    padding: 100px 50px 20px 50px;
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .hodiny {
+    margin-top: 30px;
+  }
 }
