@@ -2,6 +2,42 @@ html {
   scroll-behavior: smooth;
 }
 
+@font-face {
+  font-family: "Sunday Vacay Personal Use Only";
+  src: url("fonts/SundayVacayPersonal.woff2") format("woff2"),
+    url("fonts/SundayVacayPersonal.woff") format("woff");
+  font-display: swap;
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "ChronicaPro-Bold";
+  src: url("fonts/ChronicaPro-Bold.woff2") format("woff2"),
+    url("fonts/ChronicaPro-Bold.woff") format("woff");
+  font-display: swap;
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "ChronicaPro-Regular";
+  src: url("fonts/ChronicaPro-Regular.woff2") format("woff2"),
+    url("fonts/ChronicaPro-Regular.woff") format("woff");
+  font-display: swap;
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "ChronicaPro-Regular";
+  src: url("fonts/ChronicaPro-Medium.woff2") format("woff2"),
+    url("fonts/ChronicaPro-Medium.woff") format("woff");
+  font-display: swap;
+  font-weight: normal;
+  font-style: normal;
+}
+
 h1 {
   text-align: center;
   font-family: "Sunday Vacay Personal Use Only";
@@ -263,5 +299,6 @@ footer {
 
   .hodiny {
     margin-top: 30px;
+    padding-bottom: 100px;
   }
 }
