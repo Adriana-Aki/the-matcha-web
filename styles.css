@@ -38,6 +38,15 @@ html {
   font-style: normal;
 }
 
+@font-face {
+  font-family: "ChronicaPro-Thin";
+  src: url("fonts/ChronicaPro-Thin.woff2") format("woff2"),
+    url("fonts/ChronicaPro-Thin.woff") format("woff");
+  font-display: swap;
+  font-weight: normal;
+  font-style: normal;
+}
+
 h1 {
   text-align: center;
   font-family: "Sunday Vacay Personal Use Only";
@@ -74,8 +83,7 @@ header {
 }
 
 .header-content {
-  height: 70%;
-  align-content: center;
+  padding: 100px;
 }
 
 .container-grid {
@@ -117,7 +125,7 @@ nav {
 nav a {
   text-decoration: none;
   color: #286e37;
-  font-size: 36px;
+  font-size: 32px;
   margin: 5px;
 }
 
@@ -168,13 +176,13 @@ nav a:hover {
   font-size: 1.7rem;
   margin: 10px 0 5px;
   color: #286e37;
-  font-family: "ChronicaPro-Bold";
+  font-family: "ChronicaPro-Medium";
 }
 
 .menu-item p {
   font-size: 1.3rem;
   color: black;
-  font-family: "ChronicaPro-Regular";
+  font-family: "ChronicaPro-Thin";
 }
 
 .gallery {
@@ -257,13 +265,16 @@ footer {
 
 @media (max-width: 768px) {
   .part2 {
-    gap: 20px 40px; /* vertical and horizontal spacing between items */
     justify-content: center;
   }
 
+  .part2 {
+    gap: 20px; /* space between links */
+  }
+
   .part2 a {
-    font-size: 28px;
-    flex: 1 1 40%; /* 2 items per row */
+    font-size: 24px;
+    flex: 1 1 1 1; /* 2 items per row */
     text-align: center;
   }
 
@@ -282,6 +293,19 @@ footer {
     height: 200px;
   }
 
+  .menu-section h2 {
+    font-size: 1.7rem;
+  }
+
+  .menu-item h3 {
+    font-size: 1.5rem;
+  }
+
+  .menu-item p {
+    font-size: 1.3rem;
+    color: black;
+  }
+
   .grid-gallery {
     grid-template-columns: 1fr 1fr;
     gap: 10px;
@@ -292,13 +316,13 @@ footer {
   }
 
   .about {
-    padding: 100px 50px 20px 50px;
+    padding: 50px 50px 20px 50px;
     text-align: center;
     font-size: 20px;
   }
 
   .hodiny {
     margin-top: 30px;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
   }
 }
