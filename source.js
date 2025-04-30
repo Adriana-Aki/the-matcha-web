@@ -1,16 +1,25 @@
 document.addEventListener("DOMContentLoaded", function () {
   const translations = {
     en: {
+      home: "Home",
       menu: "Menu",
-      contact: "Contact Us",
+      galery: "Gallery",
+      contact: "About us",
+      menumatcha: "Our MatCha Menu",
     },
     sk: {
+      home: "Domov",
       menu: "Menu",
-      contact: "Kontaktujte nás",
+      galery: "Galéria",
+      contact: "O nás",
+      menumatcha: "Naše Matcha Menu",
     },
     cs: {
+      home: "Domov",
       menu: "Menu",
-      contact: "Kontaktujte nás",
+      galery: "Galéria",
+      contact: "O nás",
+      menumatcha: "Naše Matcha Menu",
     },
   };
 

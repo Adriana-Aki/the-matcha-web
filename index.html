@@ -24,10 +24,10 @@
   <body>
     <nav>
       <div class="nav-menu">
-        <a href="index.html" data-i18n="contact">Domov</a>
+        <a href="index.html" data-i18n="home">Domov</a>
         <a href="#menu-section " data-i18n="menu">Menu </a>
-        <a href="#gallery">Galéria </a>
-        <a href="#kontakt">o nás</a>
+        <a href="#gallery" data-i18n="galery">Galéria </a>
+        <a href="#kontakt" data-i18n="contact">o nás</a>
       </div>
     </nav>
 
@@ -44,43 +44,53 @@
 
     <main class="container">
       <section class="menu-section" id="menu-section">
-        <h2>Naše Matcha Menu</h2>
+        <h2 data-i18n="menumatcha">Naše Matcha Menu</h2>
         <div class="menu-grid">
           <div class="menu-item">
             <img src="matcha1.jpg" alt="Matcha Classic" />
-            <h3>Matcha Classic</h3>
-            <p>Tradičný japonský matcha čaj, voda, vášeň.</p>
+            <h3 data-i18n="item1">Matcha Classic</h3>
+            <p data-i18n="item1description">
+              Tradičný japonský matcha čaj, voda, vášeň.
+            </p>
           </div>
           <div class="menu-item">
             <img src="matcha1.jpg" alt="Matcha Latte" />
-            <h3>Matcha Latte</h3>
-            <p>Matcha, mandľové mlieko, kvapka agáve.</p>
+            <h3 data-i18n="item2">Matcha Latte</h3>
+            <p data-i18n="item2description">
+              Matcha, mandľové mlieko, kvapka agáve.
+            </p>
           </div>
           <div class="menu-item">
             <img src="matcha1.jpg" alt="Iced Matcha" />
-            <h3>Iced Matcha</h3>
-            <p>Chladená matcha, ľad, kokosové mlieko.</p>
+            <h3 data-i18n="item3">Iced Matcha</h3>
+            <p data-i18n="item3description">
+              Chladená matcha, ľad, kokosové mlieko.
+            </p>
           </div>
           <div class="menu-item">
             <img src="matcha1.jpg" alt="Matcha s medom" />
-            <h3>Matcha s medom</h3>
-            <p>Matcha, med z lokálnej farmy, voda.</p>
+            <h3 data-i18n="item4">Matcha s medom</h3>
+            <p data-i18n="item4description">
+              Matcha, med z lokálnej farmy, voda.
+            </p>
           </div>
           <div class="menu-item">
             <img src="matcha1.jpg" alt="Vanilla Matcha" />
-            <h3>Vanilla Matcha</h3>
-            <p>Matcha, vanilka, ovsené mlieko.</p>
+            <h3 data-i18n="item5">Vanilla Matcha</h3>
+            <p data-i18n="item5description">Matcha, vanilka, ovsené mlieko.</p>
           </div>
           <div class="menu-item">
             <img src="matcha1.jpg" alt="Citrus Matcha" />
-            <h3>Citrus Matcha</h3>
-            <p>Matcha, limetková šťava, šumivá voda.</p>
+            <h3 data-i18n="item6">Citrus Matcha</h3>
+            <p data-i18n="item6description">
+              Matcha, limetková šťava, šumivá voda.
+            </p>
           </div>
         </div>
       </section>
 
       <section class="menu-section">
-        <h2>Káva a Iné nápoje</h2>
+        <h2 data-i18n="menuother">Káva a Iné nápoje</h2>
         <div class="menu-grid">
           <div class="menu-item">
             <h3>Espresso</h3>
@@ -110,7 +120,7 @@
       </section>
 
       <section class="gallery" id="gallery">
-        <h2>Naše The MatCha momenty</h2>
+        <h2 data-i18n="moments">Naše The MatCha momenty</h2>
         <div class="grid-gallery">
           <img src="matcha.jpg" alt="Matcha 1" />
           <img src="matcha3.jpg" alt="Matcha 2" />
@@ -126,7 +136,7 @@
 
     <footer>
       <section class="kontakt" id="kontakt">
-        <div class="about">
+        <div class="about" data-i18n="about">
           U nás nekupuješ len matchu, ale aj kúsok sna dvoch nadšencov. Žiadne
           zlaté hodinky, len dvaja ľudia a ich vášeň v šálke s poriadnou dávkou
           energie.
@@ -137,7 +147,7 @@
           <span> 04101 Košice </span>
         </div>
         <div class="hodiny">
-          <strong>Otváracie hodiny</strong>
+          <strong data-i18n="hours">Otváracie hodiny</strong>
           Po: 8:00 - 20:00
           <br />
           Ut: 8:00 - 20:00
@@ -153,6 +163,7 @@
           Ne: 10:00 - 20:00
         </div>
       </section>
+      <div class="copyright">Made with &#129293; by Danolab</div>
     </footer>
     <script src="source.js"></script>
   </body>
