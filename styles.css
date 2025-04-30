@@ -88,7 +88,7 @@ header {
 
 .container-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   align-content: center;
 }
 
@@ -96,7 +96,7 @@ h2 {
   font-size: 2rem;
   margin-bottom: 40px;
   color: #286e37;
-  font-family: "ChronicaPro-Bold";
+  font-family: "Sunday Vacay Personal Use Only";
   font-size: 30px;
 }
 
@@ -113,7 +113,7 @@ nav {
   justify-content: center;
 }
 
-.part2 {
+.nav-menu {
   display: flex;
   justify-content: center;
   align-items: center;
