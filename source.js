@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function () {
       nitroMatcha: "Nitro Matcha",
       nitroMatchaDesc:
         "2g ceremonial matcha, plant-based milk, vanilla syrup, ice",
-      menuother: "Coffee and Other Drinks",
+      menuother: "Lemonades",
       passionfruitMatcha: "Passionfruit Matcha",
       passionfruitMatchaDesc:
         "2g ceremonial matcha, passionfruit purée, vanilla syrup, soda, ice",
@@ -48,6 +48,7 @@ document.addEventListener("DOMContentLoaded", function () {
       matchaTeaDesc: "2g Saemidori Matcha, hot water",
       matchaLatte: "Matcha Latte",
       matchaLatteDesc: "2g ceremonial matcha, foeamed milk",
+      menuother2: "Coffee and Other Drinks",
       espresso: "Espresso",
       espressoDesc: "8g coffee, sugar",
       americano: "Americano",
@@ -58,6 +59,16 @@ document.addEventListener("DOMContentLoaded", function () {
       flatWhiteDesc: "16g coffee, foamed milk, sugar",
       icedLatte: "Iced Latte",
       icedLatteDesc: "8g coffee, milk, ice",
+      about:
+        "You’re not just buying matcha from us, you’re getting a piece of a dream shared by two enthusiasts. No fancy watches, just two people and their passion, served in a cup full of energy.",
+      hours: "Opening hours",
+      monday: "Mon: 8:00 - 20:00",
+      tuesday: "Tue: 8:00 - 20:00",
+      wednesday: "Wed: 8:00 - 20:00",
+      thursday: "Thu: 8:00 - 20:00",
+      friday: "Fri: 8:00 - 20:00",
+      saturday: "Sat: 10:00 - 20:00",
+      sunday: "Sun: 10:00 - 20:00",
     },
     sk: {
       home: "Domov",
@@ -91,7 +102,7 @@ document.addEventListener("DOMContentLoaded", function () {
       nitroMatcha: "Nitro Matcha",
       nitroMatchaDesc:
         "2g ceremoniálna matcha, rastlinné mlieko, vanilkový sirup, ľad",
-      menuother: "Káva a Iné nápoje",
+      menuother: "Limonády",
       passionfruitMatcha: "Passionfruit Matcha",
       passionfruitMatchaDesc:
         "2g ceremoniálna matcha, pyré marakuja, vanilkový sirup, sóda, ľad",
@@ -108,6 +119,7 @@ document.addEventListener("DOMContentLoaded", function () {
       matchaTeaDesc: "2g Saemidori Matcha, horúca voda",
       matchaLatte: "Matcha Latte",
       matchaLatteDesc: "2g ceremoniálna matcha, napenené mlieko",
+      menuother2: "Káva a Iné nápoje",
       espresso: "Espresso",
       espressoDesc: "8g káva, cukor",
       americano: "Americano",
@@ -118,6 +130,16 @@ document.addEventListener("DOMContentLoaded", function () {
       flatWhiteDesc: "16g káva, napenené mlieko, cukor",
       icedLatte: "Iced Latte",
       icedLatteDesc: "8g káva, mlieko, ľad",
+      about:
+        "U nás nekupuješ len matchu, ale aj kúsok sna dvoch nadšencov. Žiadne zlaté hodinky, len dvaja ľudia a ich vášeň v šálke s poriadnou dávkou energie.",
+      hours: "Otváracie hodiny",
+      monday: "Po: 8:00 - 20:00",
+      tuesday: "Ut: 8:00 - 20:00",
+      wednesday: "St: 8:00 - 20:00",
+      thursday: "Št: 8:00 - 20:00",
+      friday: "Pi: 8:00 - 20:00",
+      saturday: "So: 10:00 - 20:00",
+      sunday: "Ne: 10:00 - 20:00",
     },
     cs: {
       home: "Domov",
@@ -151,7 +173,7 @@ document.addEventListener("DOMContentLoaded", function () {
       nitroMatcha: "Nitro Matcha",
       nitroMatchaDesc:
         "2g ceremoniálna matcha, rastlinné mlieko, vanilkový sirup, ľad",
-      menuother: "Káva a Iné nápoje",
+      menuother: "Limonády",
       passionfruitMatcha: "Passionfruit Matcha",
       passionfruitMatchaDesc:
         "2g ceremoniálna matcha, pyré marakuja, vanilkový sirup, sóda, ľad",
@@ -168,6 +190,7 @@ document.addEventListener("DOMContentLoaded", function () {
       matchaTeaDesc: "2g Saemidori Matcha, horúca voda",
       matchaLatte: "Matcha Latte",
       matchaLatteDesc: "2g ceremoniálna matcha, napenené mlieko",
+      menuother2: "Káva a Iné nápoje",
       espresso: "Espresso",
       espressoDesc: "8g káva, cukor",
       americano: "Americano",
@@ -178,6 +201,16 @@ document.addEventListener("DOMContentLoaded", function () {
       flatWhiteDesc: "16g káva, napenené mlieko, cukor",
       icedLatte: "Iced Latte",
       icedLatteDesc: "8g káva, mlieko, ľad",
+      about:
+        "U nás nekupuješ len matchu, ale aj kúsok sna dvoch nadšencov. Žiadne zlaté hodinky, len dvaja ľudia a ich vášeň v šálke s poriadnou dávkou energie.",
+      hours: "Otváracie hodiny",
+      monday: "Po: 8:00 - 20:00",
+      tuesday: "Ut: 8:00 - 20:00",
+      wednesday: "St: 8:00 - 20:00",
+      thursday: "Št: 8:00 - 20:00",
+      friday: "Pi: 8:00 - 20:00",
+      saturday: "So: 10:00 - 20:00",
+      sunday: "Ne: 10:00 - 20:00",
     },
   };
 

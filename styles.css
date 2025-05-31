@@ -83,7 +83,7 @@ header {
 }
 
 .header-content {
-  padding: 100px;
+  padding: 100px 0;
 }
 
 .container-grid {
@@ -108,7 +108,6 @@ nav {
   background-color: #fff;
   color: #286e37;
   font-family: "Sunday Vacay Personal Use Only";
-
   display: flex;
   justify-content: center;
 }
@@ -126,7 +125,6 @@ nav a {
   text-decoration: none;
   color: #286e37;
   font-size: 32px;
-  margin: 5px;
 }
 
 nav a:hover {
@@ -266,6 +264,10 @@ footer {
   flex-direction: column;
 }
 
+.hodiny p {
+  margin: 0;
+}
+
 .copyright {
   text-align: center;
   padding-bottom: 20px;
@@ -274,6 +276,19 @@ footer {
 }
 
 @media (max-width: 768px) {
+  .nav-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; /* Allows wrapping on mobile */
+    gap: 20px; /* space between links */
+    margin: 10px 0 10px 0;
+  }
+
+  nav a {
+    font-size: 22px;
+  }
+
   .part2 {
     justify-content: center;
   }
